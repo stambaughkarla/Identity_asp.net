@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\build\Stambaugh_HW_4.props" />
+</Project>
