@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\mis333k\\web4\\Stambaugh_HW_4\\Stambaugh_HW_4\\Stambaugh_HW_4.csproj": {}
+    "C:\\mis333k\\web4\\Stambaugh_HW_4\\identity_practice\\Stambaugh_HW_4\\Stambaugh_HW_4.csproj": {}
   },
   "projects": {
-    "C:\\mis333k\\web4\\Stambaugh_HW_4\\Stambaugh_HW_4\\Stambaugh_HW_4.csproj": {
+    "C:\\mis333k\\web4\\Stambaugh_HW_4\\identity_practice\\Stambaugh_HW_4\\Stambaugh_HW_4.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\mis333k\\web4\\Stambaugh_HW_4\\Stambaugh_HW_4\\Stambaugh_HW_4.csproj",
+        "projectUniqueName": "C:\\mis333k\\web4\\Stambaugh_HW_4\\identity_practice\\Stambaugh_HW_4\\Stambaugh_HW_4.csproj",
         "projectName": "Stambaugh_HW_4",
-        "projectPath": "C:\\mis333k\\web4\\Stambaugh_HW_4\\Stambaugh_HW_4\\Stambaugh_HW_4.csproj",
+        "projectPath": "C:\\mis333k\\web4\\Stambaugh_HW_4\\identity_practice\\Stambaugh_HW_4\\Stambaugh_HW_4.csproj",
         "packagesPath": "C:\\Users\\JeksEnterprises\\.nuget\\packages\\",
-        "outputPath": "C:\\mis333k\\web4\\Stambaugh_HW_4\\Stambaugh_HW_4\\obj\\",
+        "outputPath": "C:\\mis333k\\web4\\Stambaugh_HW_4\\identity_practice\\Stambaugh_HW_4\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\JeksEnterprises\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -68,9 +68,19 @@
               "target": "Package",
               "version": "[8.0.10, )"
             },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[8.0.10, )"
+            },
             "Microsoft.Extensions.DependencyInjection": {
               "target": "Package",
               "version": "[8.0.1, )"
+            },
+            "Microsoft.VisualStudio.Web.CodeGeneration.Design": {
+              "target": "Package",
+              "version": "[8.0.6, )"
             }
           },
           "imports": [

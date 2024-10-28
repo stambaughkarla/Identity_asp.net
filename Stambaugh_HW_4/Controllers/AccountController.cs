@@ -2,7 +2,6 @@
 using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Mvc;
 
-
 using System;
 using Stambaugh_HW_4.DAL;
 using Stambaugh_HW_4.Models;
@@ -28,6 +27,7 @@ namespace Stambaugh_HW_4.Controllers
         }
 
         // GET: /Account/Register
+        [HttpGet]
         [AllowAnonymous]
         public IActionResult Register()
         {
@@ -58,6 +58,7 @@ namespace Stambaugh_HW_4.Controllers
                 //TODO: Add the rest of the custom user fields here
                 //FirstName is included as an example
                 FirstName = rvm.FirstName,
+                LastName = rvm.LastName
 
             };
 
@@ -81,9 +82,8 @@ namespace Stambaugh_HW_4.Controllers
                 //You may or may not want to log a user in directly after they register - check
                 //the business rules!
                 Microsoft.AspNetCore.Identity.SignInResult result2 = await _signInManager.PasswordSignInAsync(rvm.Email, rvm.Password, false, lockoutOnFailure: false);
-
                 //Send the user to the home page
-                return RedirectToAction("Index", "Home");
+                return RedirectToAction("Index", "Products");
             }
             else  //the add user operation didn't work, and we need to show an error message
             {
@@ -99,7 +99,7 @@ namespace Stambaugh_HW_4.Controllers
 
         // GET: /Account/Login
         [AllowAnonymous]
-        public IActionResult Login(string returnUrl)
+        public IActionResult Login(string? returnUrl)
         {
             if (User.Identity.IsAuthenticated) //user has been redirected here from a page they're not authorized to see
             {
@@ -114,7 +114,7 @@ namespace Stambaugh_HW_4.Controllers
         [HttpPost]
         [AllowAnonymous]
         [ValidateAntiForgeryToken]
-        public async Task<ActionResult> Login(LoginViewModel lvm, string returnUrl)
+        public async Task<ActionResult> Login(LoginViewModel lvm, string? returnUrl)
         {
             //if user forgot to include user name or password,
             //send them back to the login page to try again
@@ -125,7 +125,6 @@ namespace Stambaugh_HW_4.Controllers
 
             //attempt to sign the user in using the SignInManager
             Microsoft.AspNetCore.Identity.SignInResult result = await _signInManager.PasswordSignInAsync(lvm.Email, lvm.Password, lvm.RememberMe, lockoutOnFailure: false);
-
             //if the login worked, take the user to either the url
             //they requested OR the homepage if there isn't a specific url
             if (result.Succeeded)

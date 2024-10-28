@@ -2,9 +2,6 @@ using System.Globalization;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Identity.UI;
-
-
-
 using Stambaugh_HW_4.DAL;
 using Stambaugh_HW_4.Models;
 
@@ -90,7 +87,7 @@ app.Use(async (context, next) =>
 //third segment of the URL that's a parameter named id.
 app.MapControllerRoute(
     name: "default",
-    pattern: "{controller=Home}/{action=Index}/{id?}");
+    pattern: "{controller=Products}/{action=Index}/{id?}");
 
 app.Run();
 

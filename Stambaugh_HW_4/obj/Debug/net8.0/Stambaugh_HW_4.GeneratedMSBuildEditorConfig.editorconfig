@@ -1,79 +1,107 @@
 is_global = true
 build_property.TargetFramework = net8.0
+build_property.TargetFramework = net8.0
+build_property.TargetPlatformMinVersion = 
 build_property.TargetPlatformMinVersion = 
 build_property.UsingMicrosoftNETSdkWeb = true
+build_property.UsingMicrosoftNETSdkWeb = true
+build_property.ProjectTypeGuids = 
 build_property.ProjectTypeGuids = 
 build_property.InvariantGlobalization = 
+build_property.InvariantGlobalization = 
+build_property.PlatformNeutralAssembly = 
 build_property.PlatformNeutralAssembly = 
 build_property.EnforceExtendedAnalyzerRules = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = Stambaugh_HW_4
 build_property.RootNamespace = Stambaugh_HW_4
-build_property.ProjectDir = C:\mis333k\web4\Stambaugh_HW_4\Stambaugh_HW_4\
+build_property.ProjectDir = C:\mis333k\web4\Stambaugh_HW_4\identity_practice\Stambaugh_HW_4\
 build_property.EnableComHosting = 
 build_property.EnableGeneratedComInterfaceComImportInterop = 
 build_property.RazorLangVersion = 8.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = C:\mis333k\web4\Stambaugh_HW_4\Stambaugh_HW_4
+build_property.MSBuildProjectDirectory = C:\mis333k\web4\Stambaugh_HW_4\identity_practice\Stambaugh_HW_4
 build_property._RazorSourceGeneratorDebug = 
 
-[C:/mis333k/web4/Stambaugh_HW_4/Stambaugh_HW_4/Views/Account/ChangePassword.cshtml]
+[C:/mis333k/web4/Stambaugh_HW_4/identity_practice/Stambaugh_HW_4/Views/Account/ChangePassword.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWNjb3VudFxDaGFuZ2VQYXNzd29yZC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/mis333k/web4/Stambaugh_HW_4/Stambaugh_HW_4/Views/Account/Index.cshtml]
+[C:/mis333k/web4/Stambaugh_HW_4/identity_practice/Stambaugh_HW_4/Views/Account/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWNjb3VudFxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/mis333k/web4/Stambaugh_HW_4/Stambaugh_HW_4/Views/Account/Login.cshtml]
+[C:/mis333k/web4/Stambaugh_HW_4/identity_practice/Stambaugh_HW_4/Views/Account/Login.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWNjb3VudFxMb2dpbi5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/mis333k/web4/Stambaugh_HW_4/Stambaugh_HW_4/Views/Account/Register.cshtml]
+[C:/mis333k/web4/Stambaugh_HW_4/identity_practice/Stambaugh_HW_4/Views/Account/Register.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWNjb3VudFxSZWdpc3Rlci5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/mis333k/web4/Stambaugh_HW_4/Stambaugh_HW_4/Views/Home/Index.cshtml]
+[C:/mis333k/web4/Stambaugh_HW_4/identity_practice/Stambaugh_HW_4/Views/Home/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/mis333k/web4/Stambaugh_HW_4/Stambaugh_HW_4/Views/RoleAdmin/Create.cshtml]
+[C:/mis333k/web4/Stambaugh_HW_4/identity_practice/Stambaugh_HW_4/Views/Products/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvZHVjdHNcQ3JlYXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/mis333k/web4/Stambaugh_HW_4/identity_practice/Stambaugh_HW_4/Views/Products/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvZHVjdHNcRGVsZXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/mis333k/web4/Stambaugh_HW_4/identity_practice/Stambaugh_HW_4/Views/Products/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvZHVjdHNcRGV0YWlscy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/mis333k/web4/Stambaugh_HW_4/identity_practice/Stambaugh_HW_4/Views/Products/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvZHVjdHNcRWRpdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/mis333k/web4/Stambaugh_HW_4/identity_practice/Stambaugh_HW_4/Views/Products/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvZHVjdHNcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/mis333k/web4/Stambaugh_HW_4/identity_practice/Stambaugh_HW_4/Views/RoleAdmin/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUm9sZUFkbWluXENyZWF0ZS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/mis333k/web4/Stambaugh_HW_4/Stambaugh_HW_4/Views/RoleAdmin/Edit.cshtml]
+[C:/mis333k/web4/Stambaugh_HW_4/identity_practice/Stambaugh_HW_4/Views/RoleAdmin/Edit.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUm9sZUFkbWluXEVkaXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/mis333k/web4/Stambaugh_HW_4/Stambaugh_HW_4/Views/RoleAdmin/Index.cshtml]
+[C:/mis333k/web4/Stambaugh_HW_4/identity_practice/Stambaugh_HW_4/Views/RoleAdmin/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUm9sZUFkbWluXEluZGV4LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/mis333k/web4/Stambaugh_HW_4/Stambaugh_HW_4/Views/Seed/Confirm.cshtml]
+[C:/mis333k/web4/Stambaugh_HW_4/identity_practice/Stambaugh_HW_4/Views/Seed/Confirm.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2VlZFxDb25maXJtLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/mis333k/web4/Stambaugh_HW_4/Stambaugh_HW_4/Views/Seed/Index.cshtml]
+[C:/mis333k/web4/Stambaugh_HW_4/identity_practice/Stambaugh_HW_4/Views/Seed/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2VlZFxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/mis333k/web4/Stambaugh_HW_4/Stambaugh_HW_4/Views/Shared/Error.cshtml]
+[C:/mis333k/web4/Stambaugh_HW_4/identity_practice/Stambaugh_HW_4/Views/Shared/Error.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/mis333k/web4/Stambaugh_HW_4/Stambaugh_HW_4/Views/Shared/_Layout.cshtml]
+[C:/mis333k/web4/Stambaugh_HW_4/identity_practice/Stambaugh_HW_4/Views/Shared/_Layout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/mis333k/web4/Stambaugh_HW_4/Stambaugh_HW_4/Views/Shared/_LoginPartial.cshtml]
+[C:/mis333k/web4/Stambaugh_HW_4/identity_practice/Stambaugh_HW_4/Views/Shared/_LoginPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9Mb2dpblBhcnRpYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/mis333k/web4/Stambaugh_HW_4/Stambaugh_HW_4/Views/_ViewImports.cshtml]
+[C:/mis333k/web4/Stambaugh_HW_4/identity_practice/Stambaugh_HW_4/Views/_ViewImports.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/mis333k/web4/Stambaugh_HW_4/Stambaugh_HW_4/Views/_ViewStart.cshtml]
+[C:/mis333k/web4/Stambaugh_HW_4/identity_practice/Stambaugh_HW_4/Views/_ViewStart.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
