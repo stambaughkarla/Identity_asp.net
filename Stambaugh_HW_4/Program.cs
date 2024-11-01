@@ -12,7 +12,7 @@ var builder = WebApplication.CreateBuilder(args);
 builder.Services.AddControllersWithViews();
 
 
-String connectionString = "Server=tcp:stambaughkarlaahw4.database.windows.net,1433;Initial Catalog=stambaughkarlahw4;Persist Security Info=False;User ID=MISAdmin;Password=Karlkarlkarl3;MultipleActiveResultSets=False;Encrypt=True;TrustServerCertificate=False;Connection Timeout=30;";
+String connectionString = "";
 
 //NOTE: This tells your application how to get a connection to the database
 builder.Services.AddDbContext<AppDbContext>(options => options.UseSqlServer(connectionString));
